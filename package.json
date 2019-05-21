@@ -9,7 +9,7 @@
     "watch": "webpack --watch",
     "lint": "eslint src/*.ts",
     "start": "webpack-dev-server --open",
-    "start-server-dev": "webpack --watch --display errors-only --config webpack.server.config.js --mode development",
+    "start-server": "webpack --watch --display errors-only --config webpack.server.config.js --mode development",
     "start-server-tsnode": "nodemon --exec \"ts-node ./src/server.ts\"",
     "build": "webpack"
   },
